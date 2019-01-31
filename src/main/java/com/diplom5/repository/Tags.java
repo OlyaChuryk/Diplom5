@@ -14,8 +14,19 @@ public class Tags {
     @ManyToOne
     private User username;
 
+    @ManyToOne
+    private Projects projects;
+
 
     public Tags() {
+    }
+
+    public Projects getProjects() {
+        return projects;
+    }
+
+    public void setProjects(Projects projects) {
+        this.projects = projects;
     }
 
     public int getId() {
@@ -41,4 +52,5 @@ public class Tags {
     public void setTag(String tag) {
         this.tag = tag;
     }
+
 }

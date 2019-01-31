@@ -23,6 +23,9 @@ public class User {
     @OneToMany
     private List<Tags> tagsList = new ArrayList<Tags>();
 
+    @OneToOne
+    private Projects projects;
+
     public User() {
     }
 
@@ -72,5 +75,13 @@ public class User {
 
     public void setRole(Role role) {
         this.role = role;
+    }
+
+    public Projects getProjects() {
+        return projects;
+    }
+
+    public void setProjects(Projects projects) {
+        this.projects = projects;
     }
 }

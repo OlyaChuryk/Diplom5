@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866aec37-a20b-43b7-9686-a0849a4d75a6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Projects.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Tags.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Collaborators.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/CollaboratorsRepo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectsRepo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/TagsRepo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/316fe594-21e1-4d2d-ad2d-a2f2442d43b2.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/316fe594-21e1-4d2d-ad2d-a2f2442d43b2.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/Repos/StudentRepo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Projects.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Projects.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Role.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Role.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Tags.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Tags.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/students.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/students.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,60 +50,45 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="db_diplom5: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_diplom5@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="db_diplom5: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="79" column="35" lean-forward="false" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#487#493#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1184#1185#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1253#1254#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1318#1319#0" expanded="true" />
-                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,9 +97,21 @@
       <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collaborators.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/Collaborators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +120,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+              <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollaboratorsRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/CollaboratorsRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="80" lean-forward="false" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -136,44 +139,25 @@
       <file leaf-file-name="Tags.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/Tags.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="501">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
-                <element signature="e#316#317#0" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Diplom5Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,8 +166,45 @@
       <file leaf-file-name="Projects.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/Projects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagsRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/TagsRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectsRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectsRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -193,7 +214,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/students.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -205,8 +226,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -231,15 +252,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/students.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Repos/StudentRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/TagsRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/students.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/TagsRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectsRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/CollaboratorsRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Tags.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Projects.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Collaborators.java" />
       </list>
     </option>
   </component>
@@ -248,6 +273,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="640" />
@@ -272,10 +304,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,6 +361,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,7 +508,8 @@
       <workItem from="1547034378289" duration="6529000" />
       <workItem from="1547467143469" duration="383000" />
       <workItem from="1548841459648" duration="2423000" />
-      <workItem from="1548844209484" duration="14221000" />
+      <workItem from="1548844209484" duration="14372000" />
+      <workItem from="1548945298447" duration="3384000" />
     </task>
     <task id="LOCAL-00001" summary="some message">
       <created>1548852647353</created>
@@ -485,22 +518,28 @@
       <option name="project" value="LOCAL" />
       <updated>1548852647353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some message">
+      <created>1548862602859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548862602859</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28201000" />
+    <option name="totallyTimeSpent" value="31736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19660194" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19660194" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -518,7 +557,6 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2540453" sideWeight="0.49156627" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2540453" sideWeight="0.50843376" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -526,6 +564,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,50 +582,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="51" column="52" lean-forward="false" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -595,14 +591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
@@ -621,22 +610,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -647,22 +622,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="52" lean-forward="false" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -689,22 +650,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -715,22 +662,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="52" lean-forward="false" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -757,30 +690,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -811,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,78 +730,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Repos/StudentRepo.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/2c643748/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/db_diplom5.user">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/students.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="51" column="52" lean-forward="false" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Repos/StudentRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -906,104 +808,126 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+          <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="79" column="35" lean-forward="false" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#487#493#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/Tags.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="501">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <element signature="e#316#317#0" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectsRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/Projects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="408">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/CollaboratorsRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="80" lean-forward="false" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/Collaborators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
