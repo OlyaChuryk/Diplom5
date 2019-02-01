@@ -1,10 +1,10 @@
 package com.diplom5.Controllers;
 
 
-import com.diplom5.repository.Role;
-import com.diplom5.repository.Tags;
-import com.diplom5.repository.User;
+import com.diplom5.entity.Role;
+import com.diplom5.entity.User;
 import com.diplom5.repository.UserRepo;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-@RestController
-@RequestMapping("/students")
+@Controller
 public class StudentController {
 
     @Autowired // This means to get the bean called userRepository
@@ -21,14 +20,14 @@ public class StudentController {
     private UserRepo userRepository;
 
     @GetMapping(path="/add") // Map ONLY GET Requests
-    public @ResponseBody String addNewUser (@RequestParam String name
+    public @ResponseBody String addNewUser (@RequestParam String username
             , @RequestParam String email, @RequestParam String password
             , @RequestParam Role role) {
         // @ResponseBody means the returned String is the response, not a view name
         // @RequestParam means it is a parameter from the GET or POST request
 
         User n = new User();
-        n.setName(name);
+        n.setUsername(username);
         n.setEmail(email);
         n.setPassword(password);
         n.setRole(role);
@@ -40,5 +39,10 @@ public class StudentController {
     public @ResponseBody Iterable<User> getAllUsers() {
         // This returns a JSON or XML with the users
         return userRepository.findAll();
+    }
+
+    @RequestMapping(value="/", method = RequestMethod.GET)
+    public String showIndex(){
+        return "index";
     }
 }

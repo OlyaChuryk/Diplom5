@@ -1,17 +1,18 @@
-package com.diplom5.repository;
+package com.diplom5.entity;
 
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 @Entity // This tells Hibernate to make a table out of this class
-public class User {
+public class User   {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private String name;
+    private String username;
 
     private String email;
 
@@ -29,6 +30,15 @@ public class User {
     public User() {
     }
 
+    public User(String username, String email, String password, Role role, List<Tags> tagsList, Projects projects) {
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.role = role;
+        this.tagsList = tagsList;
+        this.projects = projects;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -37,12 +47,13 @@ public class User {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getEmail() {
@@ -52,6 +63,8 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+
 
     public String getPassword() {
         return password;
@@ -83,5 +96,18 @@ public class User {
 
     public void setProjects(Projects projects) {
         this.projects = projects;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", role=" + role +
+                ", tagsList=" + tagsList +
+                ", projects=" + projects +
+                '}';
     }
 }

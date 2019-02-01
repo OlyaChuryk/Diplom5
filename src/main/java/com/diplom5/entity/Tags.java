@@ -1,4 +1,4 @@
-package com.diplom5.repository;
+package com.diplom5.entity;
 
 import javax.persistence.*;
 
@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class Tags {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     private String tag;
@@ -19,6 +19,12 @@ public class Tags {
 
 
     public Tags() {
+    }
+
+    public Tags(String tag, User username, Projects projects) {
+        this.tag = tag;
+        this.username = username;
+        this.projects = projects;
     }
 
     public Projects getProjects() {
@@ -53,4 +59,13 @@ public class Tags {
         this.tag = tag;
     }
 
+    @Override
+    public String toString() {
+        return "Tags{" +
+                "id=" + id +
+                ", tag='" + tag + '\'' +
+                ", username=" + username +
+                ", projects=" + projects +
+                '}';
+    }
 }

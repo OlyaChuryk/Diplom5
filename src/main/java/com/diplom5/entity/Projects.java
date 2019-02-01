@@ -1,4 +1,4 @@
-package com.diplom5.repository;
+package com.diplom5.entity;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.List;
 public class Projects {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     private String projectName;
@@ -20,6 +20,12 @@ public class Projects {
     private List<Tags> tagsList = new ArrayList<Tags>();
 
     public Projects() {
+    }
+
+    public Projects(String projectName, User user, List<Tags> tagsList) {
+        this.projectName = projectName;
+        this.user = user;
+        this.tagsList = tagsList;
     }
 
     public int getId() {
@@ -52,5 +58,15 @@ public class Projects {
 
     public void setTagsList(List<Tags> tagsList) {
         this.tagsList = tagsList;
+    }
+
+    @Override
+    public String toString() {
+        return "Projects{" +
+                "id=" + id +
+                ", projectName='" + projectName + '\'' +
+                ", user=" + user +
+                ", tagsList=" + tagsList +
+                '}';
     }
 }
