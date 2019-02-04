@@ -21,7 +21,7 @@ public class User   {
     @Enumerated(EnumType.STRING)
     private Role role;
 
-    @OneToMany
+    @ManyToMany
     private List<Tags> tagsList = new ArrayList<Tags>();
 
     @OneToOne

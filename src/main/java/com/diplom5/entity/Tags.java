@@ -1,6 +1,8 @@
 package com.diplom5.entity;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Tags {
@@ -11,8 +13,8 @@ public class Tags {
 
     private String tag;
 
-    @ManyToOne
-    private User username;
+    @ManyToMany
+    private List<User> usernameList=new ArrayList<>();
 
     @ManyToOne
     private Projects projects;
@@ -21,9 +23,9 @@ public class Tags {
     public Tags() {
     }
 
-    public Tags(String tag, User username, Projects projects) {
+    public Tags(String tag, List<User> usernameList, Projects projects) {
         this.tag = tag;
-        this.username = username;
+        this.usernameList = usernameList;
         this.projects = projects;
     }
 
@@ -43,12 +45,12 @@ public class Tags {
         this.id = id;
     }
 
-    public User getUsername() {
-        return username;
+    public List<User> getUsernameList() {
+        return usernameList;
     }
 
-    public void setUsername(User username) {
-        this.username = username;
+    public void setUsernameList(List<User> usernameList) {
+        this.usernameList = usernameList;
     }
 
     public String getTag() {
@@ -64,7 +66,7 @@ public class Tags {
         return "Tags{" +
                 "id=" + id +
                 ", tag='" + tag + '\'' +
-                ", username=" + username +
+                ", usernameList=" + usernameList +
                 ", projects=" + projects +
                 '}';
     }
