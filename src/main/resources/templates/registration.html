@@ -1,0 +1,40 @@
+
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<link href="/css/regstyle.css" rel="stylesheet">
+<body>
+<div class = "main_comtainer">
+<div class="page">
+    <div class="page__demo">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__group"><a href="/" class="menu__link">Home</a></li>
+                <li class="menu__group"><a href="/profile" class="menu__link">Profile</a></li>
+                <li class="menu__group"><a href="#0" class="menu__link">Services</a></li>
+                <li class="menu__group"><a href="/addProject" class="menu__link">Portfolio</a></li>
+                <li class="menu__group"><a href="/blog" class="menu__link">Blog</a></li>
+                <li class="menu__group"><a href="/reg" class="menu__link">Log in</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+    <div class='container'>
+    <div class='window'>
+        <div class='overlay'></div>
+        <div class='content'>
+            <div class='welcome'>Startup Publisher</div>
+            <div class='subtitle'>Before using services you need to create an account.</div>
+            <form class='input-fields' action="#" th:action="@{/reg}" th:object="${user}" method="post">
+                <input type="text" th:field="*{username}"  class='input-line full-width' placeholder="Name"/></p>
+                <input type="email" th:field="*{email}"  class='input-line full-width' placeholder="Email"/></p>
+                <input type="password" th:field="*{password}"  class='input-line full-width' placeholder="Password"/></p>
+                <input type="submit" value="REGISTER"  class='ghost-round full-width' >
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

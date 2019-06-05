@@ -1,29 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="866aec37-a20b-43b7-9686-a0849a4d75a6" name="Default" comment="some message">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+    <list default="true" id="866aec37-a20b-43b7-9686-a0849a4d75a6" name="Default" comment="об'єднання програми для обчислення VaR з веб-додатком">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Olya.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DecemberReviewProgramInstructions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FinalProgramNotes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Manifest.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NM_formatter.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Things to do.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ValueAtRisk.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ValueAtRisk.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-math3-3.2-javadoc.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-math3-3.2-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-math3-3.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javax/swing/annotations.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/BlogController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/ProjectRiskController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/ProjectRisk.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectRiskRepo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/service/ProjectRiskService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/service/UserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/service/serviceImpl/ProjectRiskServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/service/serviceImpl/UserServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/AddAssetDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/AddOptionDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/AddPortfolioDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/application_add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/control_play_blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/cross.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/delete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/icon.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/information.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/magnifier.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/tick.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/gui/icons/wrench_orange.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/Asset.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/BackTesting.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/BinomialTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/BlackScholes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/ConfidenceLevel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/HistoricalSimulation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/ModelBuilding.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/MonteCarloSimulation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/Option.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/OptionType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/Portfolio.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/SimulationSetup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/StressTester.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/VarUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/mvc/Controller.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/mvc/Model.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/program/mvc/View.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/addProjectstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/blogstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/homestyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/regstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Capture.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/Capture2.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/SP500.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/apple.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/addProject.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/APPLE.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/BARCLAYS_MAR2013_MAR2014.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/CENTRICA_FEB2013_MARCH2014.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/GOOG_190913_181013.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/GOOG_Tester.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/LLOYDS_MARCH2013_MARCH2014.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/MSFT_15082013_15112013.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/MSFT_Apr2012_Apr2013.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/MSFT_Apr2013_Jan2014.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/testParams.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/testParams2.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testing/testingFile.csv" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/316fe594-21e1-4d2d-ad2d-a2f2442d43b2.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/316fe594-21e1-4d2d-ad2d-a2f2442d43b2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_13_102.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_13.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_13.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_13.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_1_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_1_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Diplom5.iml" afterPath="$PROJECT_DIR$/Diplom5.iml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Message.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Tags.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Tags.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Collaborators.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Message.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Projects.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Tags.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/CollaboratorsRepo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/MessageRepo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectsRepo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/TagsRepo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java" afterPath="$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,45 +148,100 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="db_diplom5@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_diplom5@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_diplom5@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="db_diplom5: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_diplom5@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="db_diplom5: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/User.java">
+      <file leaf-file-name="addProject.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addProject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/program/mvc/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13928">
+              <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/program/mvc/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Asset.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/program/com/nm/var/src/Asset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-194">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoricalSimulation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/program/com/nm/var/src/HistoricalSimulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="greeting.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/greeting.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h2#0;n#figure#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h2#0;n#figure#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Projects.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Projects.java">
+      <file leaf-file-name="APPLE.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/APPLE.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homestyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/homestyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".classpath" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -98,91 +250,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collaborators.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Collaborators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="26" column="90" lean-forward="false" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tags.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Tags.java">
+      <file leaf-file-name="org.eclipse.jdt.core.prefs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectsRepo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectsRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -194,6 +266,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTTP Request" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="Class" />
       </list>
@@ -202,9 +276,35 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>name</find>
+      <find>alfa</find>
+      <find>background_</find>
+      <find>&quot; &gt;</find>
+      <find>&quot;&gt;</find>
+      <find>&quot;&quot; &gt;</find>
+      <find>text</find>
+      <find>content_header</find>
+      <find>reg_form</find>
+      <find>reg_form__submit</find>
+      <find>contain</find>
+      <find>base-bgcolor</find>
+      <find>content</find>
+      <find>ghost-round</find>
+      <find>pexels-photo-27718</find>
+      <find>ce</find>
+      <find>inpu</find>
+      <find>in</find>
+      <find>container</find>
+      <find>window</find>
+      <find>left</find>
+      <find>showUserProfile</find>
+      <find>p</find>
+      <find>font-size:</find>
+      <find>grid__figure</find>
+      <find>grid</find>
     </findStrings>
     <replaceStrings>
       <replace>username</replace>
+      <replace>alf</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -218,47 +318,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/diplom4/Dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/diplom5/Entities/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Diplom4Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Repos/StudentRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/TagsRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectsRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/CollaboratorsRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Tags.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Projects.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/Collaborators.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Collaborators.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Projects.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/students.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/MessageRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.html" />
-        <option value="src:table:/2c643748/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/db_diplom5.user" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Tags.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/TagsRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/MessageRepo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectsRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/CollaboratorsRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/editor/UserEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/editor/ProjectsEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/service/ProjectsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/service/serviceImpl/ProjectsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Tags.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/config/SpittrWebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/Projects.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/ProjectRisk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/ProjectsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/homr.http" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/css/index.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/WEB-INF/views/greeting.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/css/reset.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/service/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
+        <option value="/Thymeleaf URL Expressions Fragment (greeting.html:2236).thymes" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/service/ProjectRiskService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/service/serviceImpl/ProjectRiskServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectRiskRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/config/MainConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/reset.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/index.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/regstyle.css" />
+        <option value="/CSS Fragment (addProject.html:229).css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/w3schools.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/addProjectstyle.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/ProjectRiskController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/addProject.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/registration.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/blogstyle.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/blog.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/homestyle.css" />
+        <option value="$PROJECT_DIR$/src/main/java/program/com/nm/var/src/HistoricalSimulation.java" />
       </list>
     </option>
   </component>
@@ -275,10 +385,59 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Diplom5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Diplom5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Diplom5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="640" />
     <option name="width" value="637" />
     <option name="height" value="760" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidAtRule</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -298,6 +457,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -331,7 +492,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="diplom5" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Diplom5" type="b2602c69:ProjectViewProjectNode" />
@@ -339,8 +500,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="diplom5" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Diplom5" type="b2602c69:ProjectViewProjectNode" />
@@ -348,8 +509,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="diplom5" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Diplom5" type="b2602c69:ProjectViewProjectNode" />
@@ -357,8 +519,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="diplom5" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Diplom5" type="b2602c69:ProjectViewProjectNode" />
@@ -375,12 +537,15 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Diplom5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Diplom5" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,11 +558,15 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="last_opened_file_path" value="D:/Projects/MVCprojects" />
+    <property name="last_opened_file_path" value="D:/ValueAtRisk" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30804598" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -405,9 +574,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\diploms\Diplom5" />
-      <recent name="D:\diploms\Diplom5\src\main\java\com\diplom5" />
-      <recent name="D:\diploms\Diplom5\src\main\resources" />
       <recent name="D:\diploms\Diplom5\src\main\java" />
+      <recent name="D:\diploms\Diplom5\src\main\resources\static\img" />
+      <recent name="D:\diploms\Diplom5\src\main\resources\static" />
+      <recent name="D:\diploms\Diplom5\src\main\resources\static\" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.diplom5.service" />
@@ -415,8 +585,11 @@
       <recent name="com.diplom5.entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\diploms\Diplom5\src\main\resources\static\img" />
+      <recent name="D:\diploms\Diplom5\src\main\resources\static\css" />
       <recent name="D:\diploms\Diplom5\src\main\resources\templates" />
-      <recent name="D:\diploms\Diplom5\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\diploms\Diplom5\src\main\resources\static" />
+      <recent name="D:\diploms\Diplom5\src\main\resources\static\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -540,7 +713,26 @@
       <workItem from="1548844209484" duration="14372000" />
       <workItem from="1548945298447" duration="9582000" />
       <workItem from="1549014845523" duration="9181000" />
-      <workItem from="1549277609002" duration="8307000" />
+      <workItem from="1549277609002" duration="10866000" />
+      <workItem from="1549361988450" duration="14367000" />
+      <workItem from="1549451978866" duration="8089000" />
+      <workItem from="1557333852699" duration="7380000" />
+      <workItem from="1557486070875" duration="7001000" />
+      <workItem from="1557745466055" duration="13013000" />
+      <workItem from="1557840811510" duration="7204000" />
+      <workItem from="1557995782443" duration="2852000" />
+      <workItem from="1558195118095" duration="1284000" />
+      <workItem from="1558306383731" duration="3172000" />
+      <workItem from="1558338195941" duration="438000" />
+      <workItem from="1558342946806" duration="70000" />
+      <workItem from="1558611572530" duration="14925000" />
+      <workItem from="1558707643992" duration="1816000" />
+      <workItem from="1558709914433" duration="7280000" />
+      <workItem from="1558887818119" duration="5320000" />
+      <workItem from="1559032387931" duration="214000" />
+      <workItem from="1559148734913" duration="641000" />
+      <workItem from="1559489482013" duration="10107000" />
+      <workItem from="1559637637364" duration="5106000" />
     </task>
     <task id="LOCAL-00001" summary="some message">
       <created>1548852647353</created>
@@ -570,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549021454575</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some message">
+      <created>1549286277943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549286277943</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55422000" />
+    <option name="totallyTimeSpent" value="168260000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -589,36 +788,37 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18527508" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.050970875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.49676377" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.49676377" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.49676377" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.49676377" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20954692" sideWeight="0.49156627" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2540453" sideWeight="0.50843376" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25485438" sideWeight="0.4789644" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27508092" sideWeight="0.5210356" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -630,78 +830,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some message" />
-    <option name="LAST_COMMIT_MESSAGE" value="some message" />
+    <MESSAGE value="об'єднання програми для обчислення VaR з веб-додатком" />
+    <option name="LAST_COMMIT_MESSAGE" value="об'єднання програми для обчислення VaR з веб-додатком" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="103" lean-forward="false" selection-start-line="29" selection-start-column="103" selection-end-line="29" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/constraints/Email.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/config/SpittrWebAppInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/ProjectsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/background_header.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/homr.http" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.13.Final/hibernate-validator-6.0.13.Final.jar!/org/hibernate/validator/constraints/URL.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.13.Final/hibernate-validator-6.0.13.Final.jar!/org/hibernate/validator/constraints/UniqueElements.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/css/mainstyle.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/askarvi-300x300.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/9Stacks.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/img/sksk.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/Boltt-Sports-Technologies-Pvt-Ltd.jpg" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -712,208 +880,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Dao/StudentDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Repos/StudentRepo.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/console.sql">
+    <entry file="jar://D:/Java/javaSE1.8/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="122">
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Entities/Student.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Services/StudentService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/students.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/config/WebSecurityConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/config/MvcConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/TagsRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/MessageRepo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/service/ProjectRiskService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/CollaboratorsRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="80" lean-forward="false" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/config/WebConfig.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/2c643748/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/db_diplom5.user">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/greeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectsRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/2c643748/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/db_diplom5.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/2c643748/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/db_diplom5.user_tags_list">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/2c643748/316fe594-21e1-4d2d-ad2d-a2f2442d43b2/db_diplom5.tags">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+          <caret line="9" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Tags.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/ProjectRiskRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-          </folding>
+          <caret line="9" column="54" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/repository/UserRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Collaborators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/ProjectRisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/config/MainConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/reset.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/w3schools.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/ProjectRiskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/Projects.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#668#669#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/addProjectstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="146" column="17" lean-forward="false" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/regstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="242" column="17" lean-forward="false" selection-start-line="242" selection-start-column="17" selection-end-line="242" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Diplom5Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/blogstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="27" lean-forward="false" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#figure#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#figure#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#figure#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#figure#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#figure#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#figure#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="59" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/service/serviceImpl/ProjectRiskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/service/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -921,29 +1071,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/diplom5/Controllers/StudentController.java">
+    <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="26" column="90" lean-forward="false" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/greeting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#figure#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#figure#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/homestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/APPLE.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addProject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/mvc/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13928">
+          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/mvc/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/com/nm/var/src/Asset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/com/nm/var/src/HistoricalSimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30804598" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (Diplom5)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30804598" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30804598" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30804598" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|Diplom5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30804598" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -951,6 +1238,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30804598" />
               </list>
             </option>
           </splitter-proportions>

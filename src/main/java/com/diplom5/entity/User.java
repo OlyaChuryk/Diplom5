@@ -2,6 +2,7 @@ package com.diplom5.entity;
 
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -12,31 +13,32 @@ public class User   {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @NotBlank(message = "Name is mandatory")
     private String username;
 
+    @NotBlank(message = "Email is mandatory")
     private String email;
 
+    @NotBlank(message = "Password is mandatory")
     private String password;
 
-    @Enumerated(EnumType.STRING)
-    private Role role;
+//    @Enumerated(EnumType.STRING)
+//    private Role role;
 
-    @ManyToMany
-    private List<Tags> tagsList = new ArrayList<Tags>();
-
-    @OneToOne
-    private Projects projects;
 
     public User() {
     }
 
-    public User(String username, String email, String password, Role role, List<Tags> tagsList, Projects projects) {
+    public User(@NotBlank(message = "Name is mandatory") String username
+            , @NotBlank(message = "Email is mandatory") String email
+            , @NotBlank(message = "Password is mandatory") String password
+          //  , Role role
+    ) {
         this.username = username;
         this.email = email;
         this.password = password;
-        this.role = role;
-        this.tagsList = tagsList;
-        this.projects = projects;
+ //       this.role = role;
+
     }
 
     public Integer getId() {
@@ -74,29 +76,14 @@ public class User   {
         this.password = password;
     }
 
-    public List<Tags> getTagsList() {
-        return tagsList;
-    }
 
-    public void setTagsList(List<Tags> tagsList) {
-        this.tagsList = tagsList;
-    }
-
-    public Role getRole() {
-        return role;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
-    }
-
-    public Projects getProjects() {
-        return projects;
-    }
-
-    public void setProjects(Projects projects) {
-        this.projects = projects;
-    }
+//    public Role getRole() {
+//        return role;
+//    }
+//
+//    public void setRole(Role role) {
+//        this.role = role;
+//    }
 
     @Override
     public String toString() {
@@ -105,9 +92,7 @@ public class User   {
                 ", username='" + username + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
-                ", role=" + role +
-                ", tagsList=" + tagsList +
-                ", projects=" + projects +
-                '}';
+//                ", role=" + role +
+                  '}';
     }
 }

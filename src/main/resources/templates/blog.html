@@ -1,0 +1,59 @@
+
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Startup</title>
+    <link rel="stylesheet" href="/css/blogstyle.css">
+</head>
+<body>
+<div class="container">
+    <div class="page">
+        <div class="page__demo">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__group"><a href="/" class="menu__link">Home</a></li>
+                    <li class="menu__group"><a href="/profile" class="menu__link">Profile</a></li>
+                    <li class="menu__group"><a href="#0" class="menu__link">Services</a></li>
+                    <li class="menu__group"><a href="/addProject" class="menu__link">Portfolio</a></li>
+                    <li class="menu__group"><a href="/blog" class="menu__link">Blog</a></li>
+                    <li class="menu__group"><a href="/reg" class="menu__link">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>s
+
+    <h2 style=" text-align: center">Аналітичні дослідження ризику інвестування у проекти</h2>
+    <ul class="grid">
+        <li>
+            <figure class="grid__figure">
+                <h2 class="content_item__descr"><a href="https://www.finam.ru/quotes/" style="text-align: center; font-size: 25px">Apple Inc.</a></h2>
+                <div class="content_item__descr"><img th:src="@{/img/apple.png}" alt="apple diagram" />
+                    <p style="font-size: 15px">У портфелі акцій компанії Apple Inc., за останні роки спостерігались значні зміни цін на акції.Як видно з даного графіка,ціна на акцію, станом на 2019 рік, є вдвічі більшою, ніч у 2015. Проте, цього місяця акції впали на 0.33%.
+                        Чим більше коливання цін, тим вище рівень ризику. Розуміння ризиків, пов'язаних з різними цінними паперами, дуже важливо для формування якісного портфеля. Ймовірно, ризик - це той самий фактор, який утримує багатьох інвесторів від інвестицій в акції та спонукає їх вкладати кошти в так звані безпечні банківські рахунки, депозитні сертифікати та облігації. Прибуток від подібних пасивних ощадних інструментів часто відстає від темпів інфляції.</p>
+                </div>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <h2 class="content_item__descr"><a href="https://www.9stacks.com/" style="text-align: center; font-size: 25px">S&P500</a></h2>
+                <div class="content_item__descr"><img th:src="@{/img/SP500.png}" alt="SP500_index" />
+                    <p style="font-size: 15px">Фондовий ринок зазвичай платить інвесторам, які несуть ризик, але це не завжди. В Сполучених Штатах, одному з кращих місць для інвестицій за останні сто років, були ринки, які були схильні до ризику і відсутності винагороди. Графік показує S&P500 (фондовий індекс, що враховує більше 500 акціонерних компаній у США, який був розроблений та складений компанією Standard&Poors)</p>
+                </div>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <h2 class="content_item__descr"><a href="https://www.9stacks.com/" style="text-align: center; font-size: 25px">Vanguard</a></h2>
+                <div class="content_item__descr"><img th:src="@{/img/Capture.png}" alt="vanguard" />
+                    <p style="font-size: 15px">Інвестиційна компанія Vanguard провела дослідження в порівнянні окремих акцій з індексу S&P500 з самим індексом. Вісь щорічної волатильності визначає максимальне та мінімальне значення котирувань, тобто їх розкид. З графіку видно, що середньорічна прибутковість на рівні 10% річних, збігається з історичними значеннями. Якщо провести пряму, паралельну осі щорічної волатильності, через червоний ромб, то у верхній частині виявляться акції, які обіграли індекс по прибутковості, нижче - ті, хто програв йому. Підрахувати дещо складно, але умовно можна прийняти цей поділ 50 на 50. Отже, при довільному виборі акції з індексу ймовірність обіграти сам індекс буде близько 50%.</p>
+                </div>
+            </figure>
+        </li>
+
+
+    </ul>
+
+</div>
+</body>
+</html>

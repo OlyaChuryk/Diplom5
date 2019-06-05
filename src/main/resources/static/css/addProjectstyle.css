@@ -1,0 +1,151 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500);
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+* { box-sizing: border-box; }
+body { background: slategray; margin: 0; padding: 3em 1em;}
+.menu{
+    background: -webkit-linear-gradient(#8CA6DB, #B993D6);
+    background: linear-gradient(#8CA6DB, #B993D6);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+}
+
+.menu__list{
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.menu__link{
+    display: block;
+    padding: 2rem 1.5rem;
+
+    will-change: color;
+    transition: color .25s ease-out;
+
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link:focus{
+    outline: 2px solid #fff;
+}
+
+@media (min-width: 601px){
+
+    .menu__list{
+        display: flex;
+    }
+
+    .menu__group{
+        flex-grow: 1;
+    }
+
+    .menu__link{
+        position: relative;
+        overflow: hidden;
+    }
+
+    .menu__link:before, .menu__link:after{
+        content: "";
+        width: 0;
+        height: 3px;
+        background-color: #fff;
+
+        will-change: width;
+        transition: width .05s ease-out;
+
+        position: absolute;
+        bottom: 0;
+    }
+
+    .menu__link:before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .menu__link:after{
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .menu__link:hover:before, .menu__link:hover:after{
+        width: 100%;
+        transition-duration: .15s;
+    }
+}
+
+/* hover effect */
+
+.menu:hover .menu__link:not(:hover){
+    color: #241c69;
+}
+
+
+.container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+}
+
+th {
+    text-align: left;
+}
+
+thead {
+    background-color: #55608f;
+}
+thead.th {
+    background-color: #55608f;
+}
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+td:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.window2 {
+    z-index: 100;
+    color: #fff;
+    font-family: roboto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    height: auto;
+    width: 800px;
+    background: #fff;
+    background: url('https://pexels.imgix.net/photos/27718/pexels-photo-27718.jpg?fit=crop&w=1280&h=823') top left no-repeat;
+}

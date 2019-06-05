@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Startup</title>
+    <link rel="stylesheet" href="/css/addProjectstyle.css">
+
+</head>
+<body>
+    <div class="container">
+    <div class="page">
+        <div class="page__demo">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__group"><a href="/" class="menu__link">Home</a></li>
+                    <li class="menu__group"><a href="/profile" class="menu__link">Profile</a></li>
+                    <li class="menu__group"><a href="#0" class="menu__link">Services</a></li>
+                    <li class="menu__group"><a href="/addProject" class="menu__link">Portfolio</a></li>
+                    <li class="menu__group"><a href="/blog" class="menu__link">Blog</a></li>
+                    <li class="menu__group"><a href="/reg" class="menu__link">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="container2">
+        <table>
+            <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+                <th>Column 4</th>
+                <th>Column 5</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+                <td>Cell 5</td>
+            </tr>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+                <td>Cell 5</td>
+            </tr>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+                <td>Cell 5</td>
+            </tr>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+                <td>Cell 5</td>
+            </tr>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+                <td>Cell 5</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <form action="#" th:action="@{/addProject}" class='input-fields' th:object="${project}" method="get">
+        <p><input type="text" th:field="*{projectName}"  class='input-line full-width' placeholder="Project name"/></p>
+        <p> <input type="submit" value="REGISTER"  class='ghost-round full-width'>
+            <input type="reset" value="Reset"  class='ghost-round full-width'/></p>
+    </form>
+</body>
+</html>

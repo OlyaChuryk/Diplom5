@@ -1,12 +1,94 @@
+
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <title>Startup</title>
+    <link rel="stylesheet" href="/css/homestyle.css">
 </head>
 <body>
+<div class="container">
+    <div class="page">
+        <div class="page__demo">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__group"><a href="/" class="menu__link">Home</a></li>
+                    <li class="menu__group"><a href="/profile" class="menu__link">Profile</a></li>
+                    <li class="menu__group"><a href="#0" class="menu__link">Services</a></li>
+                    <li class="menu__group"><a href="/addProject" class="menu__link">Portfolio</a></li>
+                    <li class="menu__group"><a href="/blog" class="menu__link">Blog</a></li>
+                    <li class="menu__group"><a href="/reg" class="menu__link">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
-<p th:text="'Hello, ' + ${username} + '!'" />
+    <h2 style=" text-align: center">60 Best Startups You Need to Watch Out for in 2019</h2>
+    <ul class="grid">
+        <li>
+            <figure class="grid__figure">
+                <h2 class="content_item__descr"><a href="https://www.9stacks.com/" style="text-align: right">9Stacks</a></h2>
+                <p class="content_item__descr"><img src="https://picsum.photos/300/200/?random" class="leftimg">
+                    Founders: Sudhir Kamath, Pratik Kumar, Abhinav Nigam and Rishab Mathur.
+                    Investors: Swati Gupta, Kartik Sheth, Purnima Khandelwal and Maheshwar Peri
 
+                    Bringing alive the classic poker on-screen, 9Stacks is a unique concept binding all the Poker lovers together under one roof to start the game with 9 stacks of poker chips!</p>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <h2 class="content_item__descr"><a href="https://www.9stacks.com/" style="text-align: right">Cras justo odio, dapibus ac facilisis in</a></h2>
+                <p class="content_item__descr"><img src="https://picsum.photos/200/800/?random" class="leftimg">
+                    Founders: Sudhir Kamath, Pratik Kumar, Abhinav Nigam and Rishab Mathur.
+                    Investors: Swati Gupta, Kartik Sheth, Purnima Khandelwal and Maheshwar Peri
+
+                    Bringing alive the classic poker on-screen, 9Stacks is a unique concept binding all the Poker lovers together under one roof to start the game with 9 stacks of poker chips!</p>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <img src="https://picsum.photos/200/300/?random" alt="">
+                <figcaption>Parturient Mollis Malesuada Tristique Inceptos.</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <img src="https://picsum.photos/400/200/?random" alt="">
+                <figcaption>Vehicula Quam Nibh</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <img src="https://picsum.photos/200/600/?random" alt="">
+                <figcaption>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <img src="https://picsum.photos/600/600/?random" alt="">
+                <figcaption>Parturient Mollis Malesuada Tristique Inceptos.</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <img src="https://picsum.photos/420/300/?random" alt="">
+                <figcaption>Vehicula Quam Nibh</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <img src="https://picsum.photos/800/800/?random" alt="">
+                <figcaption>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure class="grid__figure">
+                <img src="https://picsum.photos/640/400/?random" alt="">
+                <figcaption>Parturient Mollis Malesuada Tristique Inceptos.</figcaption>
+            </figure>
+        </li>
+    </ul>
+
+</div>
 </body>
 </html>

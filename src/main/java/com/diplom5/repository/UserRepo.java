@@ -1,8 +1,11 @@
 package com.diplom5.repository;
 
 import com.diplom5.entity.User;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface UserRepo extends CrudRepository<User, Integer> {
+@Repository
+public interface UserRepo extends JpaRepository<User, Integer> {
 
+    User findByUsername(String username);
 }

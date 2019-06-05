@@ -1,0 +1,139 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500);
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.menu{
+    background: -webkit-linear-gradient(#8CA6DB, #B993D6);
+    background: linear-gradient(#8CA6DB, #B993D6);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+}
+
+.menu__list{
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.menu__link{
+    display: block;
+    padding: 2rem 1.5rem;
+
+    will-change: color;
+    transition: color .25s ease-out;
+
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link:focus{
+    outline: 2px solid #fff;
+}
+
+@media (min-width: 601px){
+
+    .menu__list{
+        display: flex;
+    }
+
+    .menu__group{
+        flex-grow: 1;
+    }
+
+    .menu__link{
+        position: relative;
+        overflow: hidden;
+    }
+
+    .menu__link:before, .menu__link:after{
+        content: "";
+        width: 0;
+        height: 3px;
+        background-color: #fff;
+
+        will-change: width;
+        transition: width .05s ease-out;
+
+        position: absolute;
+        bottom: 0;
+    }
+
+    .menu__link:before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .menu__link:after{
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .menu__link:hover:before, .menu__link:hover:after{
+        width: 100%;
+        transition-duration: .15s;
+    }
+}
+
+/* hover effect */
+
+.menu:hover .menu__link:not(:hover){
+    color: #241c69;
+}
+* { box-sizing: border-box; }
+body { background: slategray; margin: 0; padding: 3em 1em;}
+ul { list-style: none; margin: 0; padding: 0;}
+figure { margin: 0; }
+figcaption { font-style: italic; font-size: 0.8em; color: grey; line-height: 1.4; }
+
+.grid {
+
+    overflow-x: scroll; /* scroll only within the grid, not entire page*/
+    -webkit-overflow-scrolling: touch; /* better scrolling on touch*/
+    padding: 2em 1em;
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+grid__figure {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+img {
+    grid-auto-flow: column;
+    grid-auto-columns: 90%;
+    object-fit: cover;
+}
+
+
+.content_item_descr{
+    width: 100%;
+}
+.content_item__descr{
+    font-family: Georgia;
+    font-size: 5px;
+    color: #000;
+    text-align: center;
+}
+.content_item_full_descr{
+    font-family: Georgia;
+    font-size: 5px;
+    color: #329934;
+    text-align: center;
+}
+.leftimg {
+    float:left;
+    margin: 7px 7px 7px 0;
+}
