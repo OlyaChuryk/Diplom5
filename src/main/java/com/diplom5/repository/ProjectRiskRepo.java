@@ -7,9 +7,6 @@ package com.diplom5.repository;
         import java.util.List;
 
 @Repository
-public interface ProjectRiskRepo extends JpaRepository<ProjectRisk, Long> {
+public interface ProjectRiskRepo extends JpaRepository<ProjectRisk, Integer> {
 
-    ProjectRisk findByProjectName(String projectName);
-    ProjectRisk findById(int id);
-    List<ProjectRisk> findAll();
 }

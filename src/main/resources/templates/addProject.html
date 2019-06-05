@@ -75,12 +75,13 @@
             </tr>
             </tbody>
         </table>
-
+        <button>Export HTML table to CSV file</button>
     </div>
+
     <form action="#" th:action="@{/addProject}" class='input-fields' th:object="${project}" method="get">
-        <p><input type="text" th:field="*{projectName}"  class='input-line full-width' placeholder="Project name"/></p>
-        <p> <input type="submit" value="REGISTER"  class='ghost-round full-width'>
-            <input type="reset" value="Reset"  class='ghost-round full-width'/></p>
+        <p><input type="text" th:field="*{projectName}" class='input-line full-width' placeholder="Project name"/>
+            <input type="submit" value="REGISTER" class='ghost-round full-width'>
+            <input type="reset" value="Reset" class='ghost-round full-width'/></p>
     </form>
 </body>
 </html>

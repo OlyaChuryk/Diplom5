@@ -9,5 +9,7 @@ import java.util.List;
 @Service
 public interface ProjectRiskService {
 
-    
+
+    ProjectRisk findOne(int id);
+    List<ProjectRisk> findAll();
 }
