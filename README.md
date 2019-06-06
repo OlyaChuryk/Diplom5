@@ -1,3 +1,0 @@
-# Diplom5
-ValueAtRisk
-===========

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Startup</title>
     <link rel="stylesheet" href="/css/addProjectstyle.css">
+    <link rel="stylesheet" href="/js/htmlTocsv.js">
 
 </head>
 <body>
@@ -27,61 +28,156 @@
     </div>
 
     <div class="container2">
-        <table>
+        <div>
+            <table id="myTable">
             <thead>
             <tr>
-                <th>Column 1</th>
-                <th>Column 2</th>
-                <th>Column 3</th>
-                <th>Column 4</th>
-                <th>Column 5</th>
+                <th>Date</th>
+                <th>Open</th>
+                <th>High</th>
+                <th>Low</th>
+                <th>Close</th>
+                <th>Volume</th>
+                <th>Adjective</th>
             </tr>
             </thead>
-            <tbody>
+
+            <tbody class="scroll">
             <tr>
-                <td>Cell 1</td>
-                <td>Cell 2</td>
-                <td>Cell 3</td>
-                <td>Cell 4</td>
-                <td>Cell 5</td>
+                <td><input type="date"></td>
+                <td><input type="number" class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+            </tr> <tr>
+                <td><input type="date"></td>
+                <td><input type="number" class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+            </tr> <tr>
+                <td><input type="date"></td>
+                <td><input type="number" class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+            </tr> <tr>
+                <td><input type="date"></td>
+                <td><input type="number" class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+            </tr> <tr>
+                <td><input type="date"></td>
+                <td><input type="number" class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+            </tr> <tr>
+                <td><input type="date"></td>
+                <td><input type="number" class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
+                <td><input type="number"class="input-line"/></td>
             </tr>
-            <tr>
-                <td>Cell 1</td>
-                <td>Cell 2</td>
-                <td>Cell 3</td>
-                <td>Cell 4</td>
-                <td>Cell 5</td>
-            </tr>
-            <tr>
-                <td>Cell 1</td>
-                <td>Cell 2</td>
-                <td>Cell 3</td>
-                <td>Cell 4</td>
-                <td>Cell 5</td>
-            </tr>
-            <tr>
-                <td>Cell 1</td>
-                <td>Cell 2</td>
-                <td>Cell 3</td>
-                <td>Cell 4</td>
-                <td>Cell 5</td>
-            </tr>
-            <tr>
-                <td>Cell 1</td>
-                <td>Cell 2</td>
-                <td>Cell 3</td>
-                <td>Cell 4</td>
-                <td>Cell 5</td>
-            </tr>
+
             </tbody>
+
         </table>
-        <button>Export HTML table to CSV file</button>
+
+    </div>
+        <button >Export HTML table to CSV file</button><button onclick="myFunction()">Add Row</button>
+
+        <script>
+            function myFunction() {
+                var table = document.getElementById("myTable");
+                var row = table.insertRow(table.rows.length - 1);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                var cell5 = row.insertCell(4);
+                var cell6 = row.insertCell(5);
+                var cell7 = row.insertCell(6);
+
+                cell1.innerHTML = "<input type=\"date\"/>";
+                cell2.innerHTML = "<input type=\"number\"class=\"input-line\"/>";
+                cell3.innerHTML = "<input type=\"number\"class=\"input-line\"/>";
+                cell4.innerHTML = "<input type=\"number\"class=\"input-line\"/>";
+                cell5.innerHTML = "<input type=\"number\"class=\"input-line\"/>";
+                cell6.innerHTML = "<input type=\"number\"class=\"input-line\"/>";
+                cell7.innerHTML = "<input type=\"number\"class=\"input-line\"/>";
+            }
+        </script>
+        <script>
+            function download_csv(csv, filename) {
+                var csvFile;
+                var downloadLink;
+
+                // CSV FILE
+                csvFile = new Blob([csv], {type: "text/csv"});
+
+                // Download link
+                downloadLink = document.createElement("a");
+
+                // File name
+                downloadLink.download = filename;
+
+                // We have to create a link to the file
+                downloadLink.href = window.URL.createObjectURL(csvFile);
+
+                // Make sure that the link is not displayed
+                downloadLink.style.display = "none";
+
+                // Add the link to your DOM
+                document.body.appendChild(downloadLink);
+
+                // Lanzamos
+                downloadLink.click();
+            }
+
+            function export_table_to_csv(html, filename) {
+                var csv = [];
+                var rows = document.querySelectorAll("table tr");
+
+                for (var i = 0; i < rows.length; i++) {
+                    var row = [], cols = rows[i].querySelectorAll("td, th");
+
+                    for (var j = 0; j < cols.length; j++)
+                        row.push(cols[j].innerText);
+
+                    csv.push(row.join(","));
+                }
+
+                // Download CSV
+                download_csv(csv.join("\n"), filename);
+            }
+
+            document.querySelector("button").addEventListener("click", function () {
+                var html = document.querySelector("table").outerHTML;
+                export_table_to_csv(html, "table.csv");
+            });</script>
+        <div>
+            <form action="#" th:action="@{/addProject}" class='input-fields' th:object="${project}" method="get">
+                <p><input type="text" th:field="*{projectName}" class='input-line full-width' placeholder="Project name"/>
+                    <input type="submit" value="REGISTER" class='ghost-round full-width'>
+                    <input type="reset" value="Reset" class='ghost-round full-width'/></p>
+            </form>
+        </div>
     </div>
 
-    <form action="#" th:action="@{/addProject}" class='input-fields' th:object="${project}" method="get">
-        <p><input type="text" th:field="*{projectName}" class='input-line full-width' placeholder="Project name"/>
-            <input type="submit" value="REGISTER" class='ghost-round full-width'>
-            <input type="reset" value="Reset" class='ghost-round full-width'/></p>
-    </form>
+
 </body>
 </html>

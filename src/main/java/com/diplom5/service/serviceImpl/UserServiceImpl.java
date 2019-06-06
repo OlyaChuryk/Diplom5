@@ -14,8 +14,6 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserRepo userRepo;
 
-    @Autowired
-    User userEntity;
     @Override
     public User findOne(int id) {
         return userRepo.getOne(id);
